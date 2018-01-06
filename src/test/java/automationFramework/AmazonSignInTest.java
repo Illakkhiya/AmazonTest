@@ -20,7 +20,7 @@ public class AmazonSignInTest {
 		driver.get("https://www.amazon.com/");
 	}
 	
-	@Test
+	 @Test
 	public void test_SignInPage_Appear()
 	{
 		signInPage = new AmazonSignInPage(driver);
